@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Arqentia · Demo privada</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: linear-gradient(150deg, #0a1626 0%, #0d1e33 55%, #0a1930 100%);
+    color: white; display: flex; align-items: center; justify-content: center;
+    padding: 24px; position: relative; overflow: hidden;
+  }
+  body::before {
+    content: "A."; position: absolute; right: -2vw; top: 8vh;
+    font-size: 42vh; font-weight: 800; color: rgba(255,255,255,.04); line-height: 1;
+    pointer-events: none;
+  }
+  .card { max-width: 560px; width: 100%; }
+  .logo { font-size: 30px; font-weight: 800; letter-spacing: .01em; }
+  .logo span { color: #2e6be6; }
+  .rule { width: 64px; height: 3px; background: #2e6be6; margin: 28px 0; }
+  h1 { font-size: 26px; font-weight: 800; line-height: 1.25; margin-bottom: 14px; letter-spacing: -.01em; }
+  p { font-size: 15.5px; line-height: 1.65; color: #c9d6e8; margin-bottom: 26px; }
+  a.btn {
+    display: inline-block; background: #2e6be6; color: white; text-decoration: none;
+    font-weight: 700; font-size: 15px; padding: 13px 22px; border-radius: 10px;
+  }
+  a.btn:hover { background: #2558c2; }
+  .mail { margin-top: 14px; font-size: 13.5px; color: #8fa6c8; }
+  .mail b { color: #c9d6e8; }
+  .foot { margin-top: 44px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,.18);
+    font-size: 11.5px; color: #8fa6c8; letter-spacing: .08em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">Arq<span>e</span>ntia.</div>
+    <div class="rule"></div>
+    <h1>Esta es una demostración privada de Arqentia.</h1>
+    <p>El acceso está reservado. Si desea conocer esta demostración o ver cómo un sistema
+    como este funcionaría en su empresa, escríbanos y coordinamos una presentación.</p>
+    <a class="btn" href="mailto:hello@arqentia.com?subject=Acceso%20a%20demostraci%C3%B3n%20Arqentia">Solicitar acceso</a>
+    <div class="mail">o escríbanos directamente a <b>hello@arqentia.com</b></div>
+    <div class="foot">Arqentia · Sistemas de gestión con inteligencia artificial · Florida, USA · Lima, Perú</div>
+  </div>
+</body>
+</html>
